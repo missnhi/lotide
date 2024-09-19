@@ -16,6 +16,7 @@ itemsToCount: an object specifying what to count*/
 const countOnly = function (allItems, itemsToCount) {
   const ret = {};
   for ( let name of allItems ) {
+    // Check if the current item is a key in the itemsToCount object with a truthy value
     if (itemsToCount[name]) {
       if (ret[name]) { //  If the item is already in the ret object, its count is incremented.
         ret[name]++;
