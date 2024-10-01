@@ -45,5 +45,10 @@ const assertArraysEqual = function(array1, array2) {
 }
 
 //TEST CODE
-assertArraysEqual(map(words, (word) => word[0]), ['g', 'c', 't', 'm', 't']); // => true
-assertArraysEqual(map(words, (word) => word.length), [5, 4, 3, 2, 1])// => false
+
+const runTests = function() {
+  assertArraysEqual(map(words, (word) => word[0]), ['g', 'c', 't', 'm', 't']);
+  assertArraysEqual(map(words, (word) => word.length), [6, 7, 2, 5, 3]);
+}
+
+runTests();
