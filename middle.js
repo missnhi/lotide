@@ -1,7 +1,4 @@
 // Implement function to return the middle element(s) of an array
-const assertArraysEqual = require('./assertArraysEqual');
-
-// IMPLEMENTATION
 const middle = function(array) {
   let retArray = [];
   let mid = Math.floor(array.length / 2);
