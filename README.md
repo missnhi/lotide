@@ -2,6 +2,8 @@
 
 A mini clone of the [Lodash](https://lodash.com) library.
 
+https://www.npmjs.com/package/@nhi_phan/lotide
+
 ## Purpose
 
 **_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.
